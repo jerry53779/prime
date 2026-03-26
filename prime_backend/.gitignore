@@ -1,0 +1,61 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Django database (local dev)
+db.sqlite3
+db.sqlite3-journal
+
+# Static & media files (generated)
+staticfiles/
+media/
+
+# Logs
+*.log
+
+# Python build files
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Test / coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Type checking / lint
+.mypy_cache/
+.ruff_cache/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gunicorn / deployment
+gunicorn.pid
+
+# Celery (if used later)
+celerybeat-schedule
+celerybeat.pid
+
+# Docker (optional)
+docker-compose.override.yml

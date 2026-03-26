@@ -10,7 +10,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'your-secret-key-here-change-in-production'
 
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['https://prime-1-9wrg.onrender.com']
+ALLOWED_HOSTS = ['https://prime-6hzf.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',      # <--- Make sure this is here

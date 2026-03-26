@@ -168,7 +168,7 @@ SUPABASE_JWT_SECRET=your-jwt-secret-key
 python manage.py runserver
 ```
 
-The API will be available at `http://localhost:8000/api/`
+The API will be available at `https://prime-6hzf.onrender.com/api/`
 
 ## API Endpoints
 
@@ -204,7 +204,7 @@ The API will be available at `http://localhost:8000/api/`
 Update your React frontend to use the backend API:
 
 ```javascript
-const API_URL = 'http://localhost:8000/api';
+const API_URL = 'https://prime-6hzf.onrender.com/api';
 
 // Login example
 const response = await fetch(`${API_URL}/auth/login/`, {

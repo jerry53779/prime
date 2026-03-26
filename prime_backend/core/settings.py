@@ -78,6 +78,7 @@ REST_FRAMEWORK = {
 
 # CORS configuration
 CORS_ALLOWED_ORIGINS = [
+    'https://prime-1-9wrg.onrender.com',
     'http://localhost:5173',
     'http://localhost:3000',
     'http://localhost:3001',

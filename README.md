@@ -60,7 +60,7 @@ python manage.py runserver
 # 3. In new terminal, Setup Frontend
 cd ../backupprime
 npm install
-echo "VITE_API_URL=http://localhost:8000/api" > .env
+echo "VITE_API_URL=https://prime-6hzf.onrender.com/api" > .env
 npm run dev
 ```
 
@@ -186,7 +186,7 @@ SUPABASE_JWT_SECRET=your-jwt-secret
 
 ### Frontend (.env)
 ```env
-VITE_API_URL=http://localhost:8000/api
+VITE_API_URL=https://prime-6hzf.onrender.com/api
 ```
 
 ## 🗄️ Database Schema
@@ -285,10 +285,10 @@ See [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for:
 ### API Testing
 ```bash
 # Get projects
-curl http://localhost:8000/api/projects/
+curl https://prime-6hzf.onrender.com/api/projects/
 
 # Login
-curl -X POST http://localhost:8000/api/auth/login/ \
+curl -X POST https://prime-6hzf.onrender.com/api/auth/login/ \
   -H "Content-Type: application/json" \
   -d '{"email":"test@example.com","password":"test123"}'
 ```

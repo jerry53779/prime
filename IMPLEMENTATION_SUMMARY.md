@@ -147,7 +147,7 @@ python manage.py runserver
 # 2. Frontend Setup (new terminal)
 cd ../backupprime
 npm install
-echo "VITE_API_URL=http://localhost:8000/api" > .env
+echo "VITE_API_URL=https://prime-6hzf.onrender.com/api" > .env
 npm run dev
 ```
 
@@ -342,7 +342,7 @@ npm install
 ```
 
 ### "CORS Error"
-- Ensure Django is running on http://localhost:8000
+- Ensure Django is running on https://prime-6hzf.onrender.com
 - Check .env has correct URLs
 - Restart Django server
 

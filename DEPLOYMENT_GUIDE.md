@@ -45,7 +45,7 @@ cd backupprime
 npm install
 
 # Create .env file
-echo "VITE_API_URL=http://localhost:8000/api" > .env
+echo "VITE_API_URL=https://prime-6hzf.onrender.com/api" > .env
 
 # Run frontend
 npm run dev

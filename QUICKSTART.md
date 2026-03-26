@@ -39,7 +39,7 @@ cp .env.example .env
 python manage.py runserver
 ```
 
-**Output**: Django running on `http://localhost:8000/api/`
+**Output**: Django running on `https://prime-6hzf.onrender.com/api/`
 
 ## Step 3: Setup Frontend (1 min)
 
@@ -51,9 +51,9 @@ npm install
 
 # Create .env
 # On Windows:
-echo VITE_API_URL=http://localhost:8000/api > .env
+echo VITE_API_URL=https://prime-6hzf.onrender.com/api > .env
 # On macOS/Linux:
-echo "VITE_API_URL=http://localhost:8000/api" > .env
+echo "VITE_API_URL=https://prime-6hzf.onrender.com/api" > .env
 
 npm run dev
 ```
@@ -205,10 +205,10 @@ npm run dev
 
 ```bash
 # Get all projects
-curl http://localhost:8000/api/projects/
+curl https://prime-6hzf.onrender.com/api/projects/
 
 # Login
-curl -X POST http://localhost:8000/api/auth/login/ \
+curl -X POST https://prime-6hzf.onrender.com/api/auth/login/ \
   -H "Content-Type: application/json" \
   -d '{"email":"test@test.com","password":"123","role":"student"}'
 ```

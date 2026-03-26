@@ -70,7 +70,7 @@ python manage.py runserver
 ```bash
 cd ../backupprime
 npm install
-echo "VITE_API_URL=http://localhost:8000/api" > .env
+echo "VITE_API_URL=https://prime-6hzf.onrender.com/api" > .env
 npm run dev
 ```
 

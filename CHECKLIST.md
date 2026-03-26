@@ -15,7 +15,7 @@
 - [ ] `pip install -r requirements.txt` executed
 - [ ] `.env` file created with Supabase credentials
 - [ ] Django server runs without errors
-- [ ] API endpoints respond on `http://localhost:8000/api/`
+- [ ] API endpoints respond on `https://prime-6hzf.onrender.com/api/`
 - [ ] CORS configured correctly
 - [ ] All 27 endpoints tested locally
 

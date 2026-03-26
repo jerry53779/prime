@@ -4,7 +4,7 @@ Complete REST API documentation for the PRIME Backend.
 
 ## Base URL
 
-Development: `http://localhost:8000/api`
+Development: `https://prime-6hzf.onrender.com/api`
 Production: `https://your-backend-url/api`
 
 ## Authentication
@@ -439,7 +439,7 @@ All responses are in JSON format.
 ### JavaScript/Fetch
 ```javascript
 // Login
-const response = await fetch('http://localhost:8000/api/auth/login/', {
+const response = await fetch('https://prime-6hzf.onrender.com/api/auth/login/', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
@@ -455,7 +455,7 @@ const user = await response.json();
 console.log(user);
 
 // Get Projects
-const projectsRes = await fetch('http://localhost:8000/api/projects/');
+const projectsRes = await fetch('https://prime-6hzf.onrender.com/api/projects/');
 const projects = await projectsRes.json();
 console.log(projects);
 ```
@@ -466,7 +466,7 @@ import requests
 
 # Login
 response = requests.post(
-    'http://localhost:8000/api/auth/login/',
+    'https://prime-6hzf.onrender.com/api/auth/login/',
     json={
         'email': 'user@example.com',
         'password': 'password123',
@@ -477,14 +477,14 @@ user = response.json()
 print(user)
 
 # Get Projects
-projects = requests.get('http://localhost:8000/api/projects/').json()
+projects = requests.get('https://prime-6hzf.onrender.com/api/projects/').json()
 print(projects)
 ```
 
 ### cURL
 ```bash
 # Login
-curl -X POST http://localhost:8000/api/auth/login/ \
+curl -X POST https://prime-6hzf.onrender.com/api/auth/login/ \
   -H "Content-Type: application/json" \
   -d '{
     "email": "user@example.com",
@@ -493,7 +493,7 @@ curl -X POST http://localhost:8000/api/auth/login/ \
   }'
 
 # Get Projects
-curl http://localhost:8000/api/projects/
+curl https://prime-6hzf.onrender.com/api/projects/
 ```
 
 ## Rate Limiting
